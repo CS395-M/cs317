@@ -3,7 +3,7 @@ Python3 port of [Berkeley AI Pacman Search](http://ai.berkeley.edu)
 # Project 1: Search
 -----------------
 
-Version 1.001. Last Updated: 08/26/2014.
+Version 1.004. Last Updated by Berkeley in Fall 2022 (Kazakova's edits from Winter 2022).
 
 * * *
 
@@ -420,6 +420,9 @@ Any non-trivial non-negative consistent heuristic will receive 1 point. Make sur
 | at most 12,000           	| 3/4               	|
 | at most 9,000            	| 4/4               	|
 | at most 7,000            	| 5/4 (bonus point) 	|
+
+You may use ```mazeDistance(point1: Tuple[int, int], point2: Tuple[int, int], gameState: pacman.GameState) -> int:```
+, which returns the maze distance between any two points, using your previously iplemented bfs. 
 
 _Remember:_ If your heuristic is inconsistent, you will receive _no_ credit, so be careful! Can you solve `mediumSearch` in a short time? If so, we're either very, very impressed, or your heuristic is inconsistent.
 
